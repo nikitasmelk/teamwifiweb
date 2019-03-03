@@ -1,0 +1,125 @@
+body{
+  background-color: black;
+  background-image: url("../images/pattern_background.png");
+  background-size: 20vw;
+  background-repeat: repeat;
+}
+
+.member{
+  display: inline-block;
+  width: 49%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+}
+
+.card{
+  display : flex;
+  width: 50%;
+  height: 50%;
+}
+
+.player_card:hover{
+  filter: drop-shadow(0px 0px 15px rgba(252,240,10,1));
+}
+
+.sub_card:hover{
+  filter: drop-shadow(0px 0px 15px  #FF0A32);
+}
+
+.extra_card:hover{
+  filter: drop-shadow(0px 0px 15px  #2FF5F9);
+}
+
+.card_title_box{
+  display: inline-block;
+  position: absolute;
+  width: 17.2%;
+  height: 6%;
+  margin-left: 18%;
+  margin-top: -19.2%;
+}
+
+.card_title{
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.card_text_box{
+  display: inline-block;
+  position: absolute;
+  width: 17%;
+  height: 18.5%;
+  margin-left: 18.5%;
+  margin-top: -16%;
+}
+
+.card_text{
+  font-size: 2vw;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  line-height: 140%;
+}
+
+.player_card_title{
+  color: #ECDC22;
+  text-shadow: 3px 3px #878787;
+}
+
+.sub_card_title{
+  color: #FF0A32;
+  text-shadow: 3px 3px #0A15FF;
+}
+
+.extra_card_title{
+  color: #1ADCE0;
+  text-shadow: 3px 3px #CB29FF;
+}
+
+.player_card_text{
+  color:  #FFE90A;
+}
+
+.sub_card_text{
+  color: #FF0A32;
+}
+
+.extra_card_text{
+  color: #2FF5F9;
+}
+
+@media screen and (max-width: 800px) {
+  .member{
+    margin: auto;
+    margin-top: 12%;
+    display: block;
+    width: 100%;
+  }
+
+  .card_title_box{
+    margin-left: 37%;
+    margin-top: -39.7%;
+    height: 5%;
+    width: 36%;
+  }
+
+  .card_title{
+  font-size: 6vw;
+}
+
+.card_text_box{
+  width: 36%;
+  height: 15%;
+  margin-left: 37.4%;
+  margin-top: -33%;
+}
+
+.card_text{
+  font-size: 4vw;
+}
+
+.title{
+  font-size: 6vw;
+}
+}

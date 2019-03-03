@@ -1,0 +1,204 @@
+.trophy_box{
+	display: flex;
+	margin: auto;
+	margin-top: 100px;
+	width: 90%;
+	height: 30vw;
+	border: 7px ridge #404040;
+	margin-bottom: 50px;
+}
+
+.trophy_img{
+	border: 7px ridge #404040;
+	height: 100%;
+	width: auto;
+	float: left;
+}
+
+.description{
+	float: right;
+	background-image: url("https://www.muralswallpaper.com/app/uploads/clean-white-brick-wall-textures-plain.jpg");
+	width: auto;
+	height: auto;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
+u{
+	font-size: 4vw;
+	color: black;
+	margin-right: 13%;
+}
+
+.nickname_box{
+	width: 51.5%;
+	height: 30%;
+	position: absolute;
+}
+
+h1{
+	color: #e68a00;
+	margin-top: 8%;
+	position: absolute;
+	font-size: 7vw;
+	filter: drop-shadow(0px 0px 3px #666666);
+}
+
+body{
+  background-image: url("https://www.muralswallpaper.co.uk/app/uploads/grey-brick-plain.jpg");
+  background-size: auto;
+  background-repeat: repeat;
+}
+
+.maximr_txt{
+	margin-left: 9vw;
+	opacity: 0;
+}
+
+.nikitas_txt{
+	margin-left: 14vw;
+	opacity: 0;
+}
+
+.sasham_txt{
+	margin-left: 18vw;
+	opacity: 0;
+}
+
+.sashap_txt{
+	margin-left: 12vw;
+	opacity: 0;
+}
+
+.plesen_txt{
+	margin-left: 16vw;
+	opacity: 0;
+}
+
+.jasonb_txt{
+	margin-left: 16vw;
+	opacity: 0;
+}
+
+.mickolajz_txt{
+	margin-left: 13vw;
+	opacity: 0;
+}
+
+.random_txt{
+	margin-left: 6vw;
+	opacity: 0;
+}
+
+.wep_txt{
+	margin-left: 19vw;
+	opacity: 0;
+}
+
+.players{
+	display: flex;
+	width: 70%;
+	height: 85.7%;
+	float: left;
+	overflow: hidden;
+	flex-wrap: initial;
+}
+
+.player_pic{
+	width: 20%;
+	height: 70%;
+	margin-top: 22vw;
+}
+
+.carapasik_txt{
+	margin-left: 10vw;
+	opacity: 0;
+}
+
+.bringsoul_txt{
+	margin-left: 20%;
+	opacity: 0;
+}
+
+.player_pic:hover{
+	-webkit-transition: margin-top 0.6s;
+	margin-top: 16.5vw;
+	filter: drop-shadow(0px 0px 15px  #F56F00);
+}
+
+.maximr_pic:hover ~ .nickname_box .maximr_txt{
+	-webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.wep_pic:hover ~ .nickname_box .wep_txt{
+	-webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.bringsoul_pic:hover ~ .nickname_box .bringsoul_txt{
+	-webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.carapasik_pic:hover ~ .nickname_box .carapasik_txt{
+	-webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.jasonb_pic:hover ~ .nickname_box .jasonb_txt{
+	-webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.plesen_pic:hover ~ .nickname_box .plesen_txt{
+	-webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.nikitas_pic:hover ~ .nickname_box .nikitas_txt{
+  -webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.sasham_pic:hover ~ .nickname_box .sasham_txt{
+  -webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.sashap_pic:hover ~ .nickname_box .sashap_txt{
+  -webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.mickolajz_pic:hover ~ .nickname_box .mickolajz_txt{
+  	-webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.random_pic:hover ~ .nickname_box .random_txt{
+  -webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.text{
+	width: auto;
+	float: right;
+	margin-right: 2vw;
+	height: auto;
+	color: black;
+	border: 7px ridge #404040;
+	font-size: 2vw;
+	line-height: 350%;
+}
+

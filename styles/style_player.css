@@ -1,0 +1,120 @@
+body, html{
+  height: 100%;
+  background-size: 150vw;
+  background-position: 72.5% -20%;
+  background-repeat: no-repeat;
+  background-color: #1F1C17;
+}
+
+.title{
+  margin-bottom: 5%;
+}
+
+.paralax{
+  height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero_paralax{
+  height: 70px;
+  width: 100%;
+}
+
+.main{
+  background-color: #1F1C17;
+  min-height: 300px;
+}
+
+.info_box{
+  text-align: center;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.biography{
+  width: 59%;
+  font-family: 'EB Garamond','Playfair Display', serif;
+  color: white;
+  font-size: 4vw;
+}
+
+.heading{
+  color: white;
+  margin-bottom: 50px;
+  font-size: 6vw;
+  font-family: 'Marck Script', cursive;
+}
+
+.item_box{
+  text-align: center;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+  .logo{
+  width: 10vw;
+  height: 10vw;
+}
+
+.item:active{
+  position: relative;
+  top: 5px;
+}
+
+.cup{
+  margin: auto;
+  width: 19%;
+  height: 30%;
+  border: 7px ridge #404040;
+}
+
+.item:hover{
+  filter: drop-shadow(0px 0px 15px  #F56F00);
+}
+
+.rank{
+  height: 40vw;
+  width: 40vw;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .heading{
+    font-size: 12vw;
+  }
+
+  .biography{
+    font-size: 6vw;
+  }
+
+  .item_box{
+    margin-top: 0px;
+    flex-direction: column;
+  }
+
+  .logo{
+    margin-top: 15vw;
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .cup{
+    margin-top: 15vw;
+    width: 38%;
+    height: 60%;
+  }
+
+  .rank{
+    width: 60vw;
+    height: 60vw;
+    margin-bottom: 70px;
+  }
+}

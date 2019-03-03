@@ -1,0 +1,111 @@
+body{
+  background-image: url("../images/home_background.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-color: black;
+
+}
+
+.main{
+  margin-bottom: 80px;
+}
+
+#img_container{
+  display: inline-block;
+  margin-top: 50px;
+  width:45%;
+  margin-left: 4%;
+}
+
+#team_pic{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 82px -9px rgba(240,126,5,1);
+  -moz-box-shadow: 0px 0px 82px -9px rgba(240,126,5,1);
+  box-shadow: 0px 0px 82px -9px rgba(240,126,5,1);
+}
+
+.image_text {
+  position: absolute;
+  text-align: center;
+  margin-top: -25%;
+  margin-left: 8%;
+  font-family: 'ZCOOL XiaoWei', serif;
+  color: white;
+  font-size: 2.5vw;
+  opacity: 0;
+  -webkit-transition-property: opacity; /* Safari */
+  -webkit-transition-duration: 2s; /* Safari */
+  transition-property: opacity;
+  transition-duration: 2s;
+  filter: drop-shadow(0px 0px 5px  #F56F00);
+}
+
+#team_pic:hover{
+  -webkit-animation: blur 2s ;
+  -webkit-animation-fill-mode: forwards;
+}
+
+#team_pic:hover + .image_text{
+    opacity: 1;
+}
+
+@-webkit-keyframes blur {
+  0% { -webkit-filter: blur(0px); }
+  100% { -webkit-filter: blur(13px); }
+}
+
+#text_box{
+  display: inline-block;
+  margin-top: 70px;
+  width:40%;
+  float: right;
+  margin-right: 6%;
+}
+
+#home_text{
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 3vw;
+  color: white;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+
+  #img_container{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 15%;
+
+  }
+
+  #text_box{
+  display: block;
+  margin: auto;
+  margin-top: 15%;
+  width:90%;
+  float: none;
+  margin-bottom: 50px;
+}
+
+#home_text{
+  font-size: 6vw;
+}
+
+.image_text {
+  margin-left: 25%;
+  margin-top: -45%;
+  font-size: 4vw;
+}
+}
+

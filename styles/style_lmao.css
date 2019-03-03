@@ -1,0 +1,109 @@
+body{
+	background-color: black;
+	background-image: url(https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+	background-size: contain;
+	background-repeat: repeat-y;
+}
+
+.box{
+	width: 100%;
+	margin-top: 200px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.quote_box{
+	display: inline-block;
+	max-width: 70%;
+}
+
+.quote{
+	text-align: center;
+	font-size: 5vw;
+	font-family: 'EB Garamond','Playfair Display', serif;
+	color: white;
+}
+
+.name{
+	width: 100%;
+	font-family: 'Marck Script', cursive;
+	text-align: right;
+	width: auto;
+	height: 20px;
+	padding: 10px;
+	overflow: visible;
+	color: white;
+	font-size: 2vw;
+}
+
+.img_box{
+	margin: auto;
+	width: 40%;
+	height: 40%;
+	display: block;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+  	-webkit-box-shadow: 0px 0px 82px -9px #0000b3;
+  	-moz-box-shadow: 0px 0px 82px -9px #0000b3;
+  	box-shadow: 0px 0px 82px -9px #0000b3;
+}
+
+.caption{
+	position: absolute;
+	width: 40%;
+	margin-top: -20%;
+	height: content;
+	text-align: center;
+	font-family: 'EB Garamond','Playfair Display', serif;
+	color: white;
+	font-size: 2vw;
+	opacity: 0;
+	-webkit-transition-property: opacity; /* Safari */
+  	-webkit-transition-duration: 3s; /* Safari */
+  	transition-property: opacity;
+  	transition-duration: 3s;
+  	filter: drop-shadow(0px 0px 5px  #F56F00);
+}
+
+.img_box:hover img{
+	-webkit-animation: blur 2s ;
+  	-webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes blur {
+  0% { -webkit-filter: blur(0px); }
+  100% { -webkit-filter: blur(5px); }
+}
+
+
+.img_box:hover .caption{
+	opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+ 	.quote_box{
+  		max-width: 90;
+  }
+
+ 	.quote{
+  		font-size: 7.5vw;
+  }
+
+ 	.name{
+  		font-size: 3.7vw;
+  	}
+
+  	.img_box{
+  		width: 80%;
+  	}
+
+	.caption{
+		font-size: 5vw;
+		width: 80%;
+		margin-top: -30%;
+	}
+}
