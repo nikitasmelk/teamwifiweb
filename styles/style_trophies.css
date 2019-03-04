@@ -1,7 +1,8 @@
 .warning{
+	filter: drop-shadow(0px 0px 15px  #F56F00);
 	text-align: center;
 	margin-top: 50px;
-	color: orange;
+	color: black;
 	height: 0px;
 	width: 100%;
 	font-size: 6vw;
