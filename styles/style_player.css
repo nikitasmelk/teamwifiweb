@@ -88,7 +88,7 @@ body, html{
 
 @media screen and (max-width: 800px) {
   .heading{
-    font-size: 12vw;
+    font-size: 15vw;
   }
 
   .main{
@@ -100,12 +100,16 @@ body, html{
     margin-bottom: 10px;
   }
   
+  .heading{
+    font-size: 8vw;
+  }
+  
   .paralax{
     background-attachment: scroll;
   }
 
   .biography{
-    font-size: 6vw;
+    font-size: 7vw;
   }
 
   .item_box{
