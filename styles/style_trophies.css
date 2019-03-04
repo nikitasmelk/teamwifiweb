@@ -1,7 +1,10 @@
 .warning{
+	text-align: center;
+	margin-top: 50px;
+	color: orange;
 	height: 0px;
 	width: 100%;
-	font-size: 5vw;
+	font-size: 6vw;
 	font-family: 'ZCOOL XiaoWei', serif;
 	opacity: 0;
 }
