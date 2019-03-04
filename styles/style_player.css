@@ -120,6 +120,11 @@ body, html{
     width: 38%;
     height: 60%;
   }
+  
+  .hero_paralax{
+    width:100% ;
+    height: auto;
+  }
 
   .rank{
     width: 60vw;
