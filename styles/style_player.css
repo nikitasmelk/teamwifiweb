@@ -90,10 +90,14 @@ body, html{
   .heading{
     font-size: 12vw;
   }
+
+  .main{
+    min-height: 50px;
+  }
   
   .info_box{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   .paralax{
@@ -124,11 +128,12 @@ body, html{
   .rank{
     width: 60vw;
     height: 60vw;
-    margin-bottom: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   
   .hero_paralax{
-    height: contain;
+    height: 100%;
     width: 100%;
   }
 }
