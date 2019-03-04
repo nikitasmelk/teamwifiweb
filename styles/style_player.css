@@ -126,4 +126,9 @@ body, html{
     height: 60vw;
     margin-bottom: 70px;
   }
+  
+  .hero_paralax{
+    height: contain;
+    width: 100%;
+  }
 }
