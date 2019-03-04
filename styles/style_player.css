@@ -87,6 +87,10 @@ body, html{
 
 
 @media screen and (max-width: 800px) {
+  .title{
+    font-szie: 10vw;
+  }
+  
   .heading{
     font-size: 15vw;
   }
@@ -98,10 +102,6 @@ body, html{
   .info_box{
     margin-top: 10px;
     margin-bottom: 10px;
-  }
-  
-  .heading{
-    font-size: 8vw;
   }
   
   .paralax{
