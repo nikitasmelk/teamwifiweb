@@ -91,6 +91,11 @@ body, html{
     font-size: 12vw;
   }
   
+  .info_box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
   .paralax{
     background-attachment: scroll;
   }
