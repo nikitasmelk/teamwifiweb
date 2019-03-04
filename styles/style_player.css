@@ -90,6 +90,10 @@ body, html{
   .heading{
     font-size: 12vw;
   }
+  
+  .paralax{
+    background-attachment: none;
+  }
 
   .biography{
     font-size: 6vw;
