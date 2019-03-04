@@ -1,3 +1,11 @@
+.warning{
+	height: 0px;
+	width: 100%;
+	font-size: 5vw;
+	font-family: 'ZCOOL XiaoWei', serif;
+	opacity: 0;
+}
+
 .trophy_box{
 	display: flex;
 	margin: auto;
@@ -200,5 +208,12 @@ body{
 	border: 7px ridge #404040;
 	font-size: 2vw;
 	line-height: 350%;
+}
+
+@media screen and (max-width: 800px) {
+	.warning{
+		opacity: 1;
+		height: 50px;
+	}
 }
 
