@@ -66,6 +66,11 @@ body{
 	opacity: 0;
 }
 
+.mathew_txt{
+	margin-left: 7vw;
+	opacity: 0;
+}
+
 .nikitas_txt{
 	margin-left: 14vw;
 	opacity: 0;
@@ -138,6 +143,12 @@ body{
 }
 
 .maximr_pic:hover ~ .nickname_box .maximr_txt{
+	-webkit-transition: opacity 1.5s, transform 0.5s;
+  	opacity: 1;
+  	transform: rotate(360deg) ;
+}
+
+.mathew_pic:hover ~ .nickname_box .mathew_txt{
 	-webkit-transition: opacity 1.5s, transform 0.5s;
   	opacity: 1;
   	transform: rotate(360deg) ;
