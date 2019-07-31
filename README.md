@@ -10,5 +10,7 @@ This is a website I did for fun to practice HTML/CSS. It is dedicated to my "Dot
 
 --- IDEAS (Possible Updates) ---
 ! Automatically update statistics (super hard)
+
 ! Fix trophies bug (in player bio)
+
 ! Fix trophies page (small screen sizes)
