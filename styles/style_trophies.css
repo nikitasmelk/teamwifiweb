@@ -29,7 +29,7 @@
 
 .description{
 	float: right;
-	background-image: url("https://www.muralswallpaper.com/app/uploads/clean-white-brick-wall-textures-plain.jpg");
+	background-image: url("../images/white_brick_texture.jpg");
 	width: auto;
 	height: auto;
 	font-family: 'ZCOOL XiaoWei', serif;
@@ -56,7 +56,7 @@ h1{
 }
 
 body{
-  background-image: url("https://www.muralswallpaper.co.uk/app/uploads/grey-brick-plain.jpg");
+  background-image: url("../images/grey_brick_texture.jpg");
   background-size: auto;
   background-repeat: repeat;
 }
